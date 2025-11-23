@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/wiraananta/antaracapture_v2.git/static/css/main.39533c1e.chunk.css",
+    "main.js": "/wiraananta/antaracapture_v2.git/static/js/main.e3552c2b.chunk.js",
+    "main.js.map": "/wiraananta/antaracapture_v2.git/static/js/main.e3552c2b.chunk.js.map",
+    "runtime-main.js": "/wiraananta/antaracapture_v2.git/static/js/runtime-main.b238cea3.js",
+    "runtime-main.js.map": "/wiraananta/antaracapture_v2.git/static/js/runtime-main.b238cea3.js.map",
+    "static/js/2.8ea232e0.chunk.js": "/wiraananta/antaracapture_v2.git/static/js/2.8ea232e0.chunk.js",
+    "static/js/2.8ea232e0.chunk.js.map": "/wiraananta/antaracapture_v2.git/static/js/2.8ea232e0.chunk.js.map",
+    "index.html": "/wiraananta/antaracapture_v2.git/index.html",
+    "static/css/main.39533c1e.chunk.css.map": "/wiraananta/antaracapture_v2.git/static/css/main.39533c1e.chunk.css.map",
+    "static/js/2.8ea232e0.chunk.js.LICENSE.txt": "/wiraananta/antaracapture_v2.git/static/js/2.8ea232e0.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b238cea3.js",
+    "static/js/2.8ea232e0.chunk.js",
+    "static/css/main.39533c1e.chunk.css",
+    "static/js/main.e3552c2b.chunk.js"
+  ]
+}
