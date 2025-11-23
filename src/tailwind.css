@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Palet nuansa “Bali warm” – bisa kamu ganti kalau mau */
+    --background: 47 100% 98%;           /* krem lembut */
+    --foreground: 24 10% 10%;           /* teks gelap */
+    --card: 0 0% 100%;
+    --card-foreground: 24 10% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 24 10% 10%;
+    --primary: 35 92% 50%;              /* amber keemasan */
+    --primary-foreground: 40 100% 98%;
+    --secondary: 45 100% 96%;
+    --secondary-foreground: 24 10% 20%;
+    --muted: 42 40% 96%;
+    --muted-foreground: 24 10% 40%;
+    --accent: 27 96% 61%;
+    --accent-foreground: 40 100% 98%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 40 30% 89%;
+    --input: 40 30% 89%;
+    --ring: 35 92% 50%;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
