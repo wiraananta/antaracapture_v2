@@ -235,7 +235,7 @@ export default function BalinesePhotoVideoPricelist() {
               <span className="h-px w-10 bg-gradient-to-l from-transparent to-amber-400 sm:w-16" />
             </div>
 
-            <h1 className="mb-2 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl bg-gradient-to-r from-amber-700 via-amber-500 to-amber-700 bg-clip-text text-transparent">
+            <h1 className="mb-2 text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl lg:text-6xl text-amber-500 bg-clip-text text-transparent">
               Antaracapture
             </h1>
 
@@ -273,7 +273,7 @@ export default function BalinesePhotoVideoPricelist() {
               inline-flex items-center justify-center gap-3
               rounded-full px-8 py-5
               text-sm sm:text-base font-semibold
-              bg-gradient-to-r from-amber-500 to-amber-600 text-white
+              text-amber-500 text-black
               shadow-lg hover:from-amber-600 hover:to-amber-700 hover:shadow-xl
               transition-all duration-300
             "
