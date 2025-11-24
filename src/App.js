@@ -30,20 +30,20 @@ export default function BalinesePhotoVideoPricelist() {
       id: 1,
       category: 'wedding',
       name: 'Paket Pernikahan Gold',
-      price: 'Rp 1.850.000',
-      originalPrice: null,
-      duration: '5 Jam',
+      price: 'Rp 1.700.000',
+      originalPrice: 'Rp 1.850.000',
+      duration: '8 Jam',
       features: [
-        '1 Fotografer Profesional',
+        '1 Fotografer',
         '1 Videografer',
-        '200+ Foto Editing',
+        '300+ Foto Editing',
         'Video Highlight 5 Menit',
         'Semua File Mentah',
         'USB Flashdisk',
         'Online Gallery',
       ],
       popular: true,
-      discount: null,
+      discount: '8% OFF',
     },
     {
       id: 2,
@@ -51,11 +51,10 @@ export default function BalinesePhotoVideoPricelist() {
       name: 'Paket Pernikahan Silver',
       price: 'Rp 1.200.000',
       originalPrice: null,
-      duration: '4 Jam',
+      duration: '6 Jam',
       features: [
-        '1 Fotografer Profesional',
+        '1 Fotografer',
         '150+ Foto Editing',
-        'Video Dokumentasi 3 Menit',
         'Semua File Mentah',
         'USB Flashdisk',
         'Online Gallery',
@@ -69,11 +68,11 @@ export default function BalinesePhotoVideoPricelist() {
       name: 'Paket Metatah Gold',
       price: 'Rp 1.500.000',
       originalPrice: null,
-      duration: '5 Jam',
+      duration: '8 Jam',
       features: [
-        '1 Fotografer Profesional',
+        '1 Fotografer',
         '1 Videografer',
-        '200+ Foto Editing',
+        '300+ Foto Editing',
         'Video Dokumentasi 5 Menit',
         'Liputan Lengkap Upacara',
         'Semua File Mentah',
@@ -89,12 +88,10 @@ export default function BalinesePhotoVideoPricelist() {
       name: 'Paket Metatah Silver',
       price: 'Rp 1.050.000',
       originalPrice: null,
-      duration: '4 Jam',
+      duration: '6 Jam',
       features: [
-        '1 Fotografer Profesional',
+        '1 Fotografer',
         '150+ Foto Editing',
-        'Video Dokumentasi 3 Menit',
-        'Liputan Momen Utama',
         'Semua File Mentah',
         'USB Flashdisk',
         'Online Gallery',
@@ -108,11 +105,11 @@ export default function BalinesePhotoVideoPricelist() {
       name: 'Paket 3 Bulanan Gold',
       price: 'Rp 1.400.000',
       originalPrice: null,
-      duration: '3 Jam',
+      duration: '8 Jam',
       features: [
-        '1 Fotografer Profesional',
+        '1 Fotografer',
         '1 Videografer',
-        '150+ Foto Editing',
+        '300+ Foto Editing',
         'Video Highlight 3 Menit',
         'Dokumentasi Acara Lengkap',
         'Semua File Mentah',
@@ -128,12 +125,10 @@ export default function BalinesePhotoVideoPricelist() {
       name: 'Paket 3 Bulanan Silver',
       price: 'Rp 950.000',
       originalPrice: null,
-      duration: '2 Jam',
+      duration: '4 Jam',
       features: [
-        '1 Fotografer Profesional',
+        '1 Fotografer',
         '100+ Foto Editing',
-        'Video Dokumentasi 2 Menit',
-        'Dokumentasi Momen Spesial',
         'Semua File Mentah',
         'USB Flashdisk',
         'Online Gallery',
@@ -147,11 +142,11 @@ export default function BalinesePhotoVideoPricelist() {
       name: 'Paket Melaspas Gold',
       price: 'Rp 1.300.000',
       originalPrice: 'Rp 1.600.000',
-      duration: '4 Jam',
+      duration: '8 Jam',
       features: [
-        '1 Fotografer Profesional',
+        '1 Fotografer',
         '1 Videografer',
-        '180+ Foto Editing',
+        '300+ Foto Editing',
         'Video Dokumentasi 4 Menit',
         'Liputan Prosesi Lengkap',
         'Semua File Mentah',
@@ -167,12 +162,10 @@ export default function BalinesePhotoVideoPricelist() {
       name: 'Paket Melaspas Silver',
       price: 'Rp 899.000',
       originalPrice: 'Rp 1.200.000',
-      duration: '3 Jam',
+      duration: '6 Jam',
       features: [
-        '1 Fotografer Profesional',
-        '120+ Foto Editing',
-        'Video Dokumentasi 3 Menit',
-        'Liputan Momen Penting',
+        '1 Fotografer',
+        '100+ Foto Editing',
         'Semua File Mentah',
         'USB Flashdisk',
         'Online Gallery',
@@ -222,16 +215,16 @@ export default function BalinesePhotoVideoPricelist() {
           </div>
 
           {/* Logo */}
-          <div className="mb-8">
+          {/* <div className="mb-8">
             <div className="relative inline-block">
               <div className="absolute inset-0 rounded-full bg-amber-400/20 blur-2xl" />
               <img
-                src='/Antaracapture.png'
+                src='/antaracapture.png'
                 alt="AntaraCapture"
                 className="relative mx-auto h-32 w-32 object-contain drop-shadow-2xl sm:h-40 sm:w-40"
               />
             </div>
-          </div>
+          </div> */}
 
           {/* Title */}
           <div className="mb-4">
@@ -514,7 +507,7 @@ export default function BalinesePhotoVideoPricelist() {
                   <span className="mt-1 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-amber-500/10">
                     <Check className="h-3 w-3 text-amber-600" />
                   </span>
-                  <span>Harga dapat berubah sewaktu-waktu tanpa pemberitahuan sebelumnya.</span>
+                  <span>Harga dapat berubah sewaktu-waktu.</span>
                 </li>
 
                 <li className="flex items-start gap-2">
@@ -535,21 +528,21 @@ export default function BalinesePhotoVideoPricelist() {
                   <span className="mt-1 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-amber-500/10">
                     <Check className="h-3 w-3 text-amber-600" />
                   </span>
-                  <span>Pembayaran dapat dicicil hingga H-7 sebelum acara berlangsung.</span>
+                  <span>Pembayaran dapat dicicil hingga sebelum hasil file dikirimkan.</span>
                 </li>
 
                 <li className="flex items-start gap-2">
                   <span className="mt-1 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-amber-500/10">
                     <Check className="h-3 w-3 text-amber-600" />
                   </span>
-                  <span>Gratis konsultasi konsep dan survey lokasi sebelum hari H.</span>
+                  <span>Gratis konsultasi konsep dan request seusai dengan kebutuhan.</span>
                 </li>
 
                 <li className="flex items-start gap-2">
                   <span className="mt-1 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-amber-500/10">
                     <Check className="h-3 w-3 text-amber-600" />
                   </span>
-                  <span>Pengiriman file selesai dalam waktu 14–30 hari kerja.</span>
+                  <span>Pengiriman file selesai dalam waktu 7–14 hari kerja.</span>
                 </li>
               </ul>
             </CardContent>
