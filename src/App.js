@@ -1,4 +1,3 @@
-import './tailwind.css';
 import React, { useState } from 'react';
 import {
   Card,
